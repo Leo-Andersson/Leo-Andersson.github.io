@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projekt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="p-5 bg-dark text-light text-center">
+        <h1><a href="index.html">Leos proteinbutik</a></h1>
+        <img src="/img/loggan.png" alt="Leos Proteinbutik" width="200">
+        <p>Din butik för de bästa kosttillskotten</p> 
+    </div>
+    <!--Navbar med meny-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Meny</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Kontakta oss</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Produkter
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="protein.html">Protein</a></li>
+                  <li><a class="dropdown-item" href="vitaminermineraler.html">Vitaminer och mineraler</a></li>
+                  <li><a class="dropdown-item" href="prestation.html">Prestation</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Sök" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Sök</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--produkter-->
+    <div class="proteinsmaker">
+        <div class="container">
+            <div class="row">         
+                <div class="col-md-4 bg-light p-4 border">
+                    <p class="proteinchoklad">Deal 20% rabatt</p>
+                    <img src="/img/Protein.png" class="d-block w-100" alt="Protein med chokladsmak">
+                    <p class="proteinpris">1kg Wheyprotein med smak av choklad <span class="original"><br>300kr</span> <span class="rabatt"><br>240kr</span></p>
+                    <div class="knapp">
+                        <button class="btn btn-success">köp</button>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-light p-4 border">
+                    <p class="proteinvanilj">Deal 20% rabatt</p>
+                    <img src="/img/Protein.png" class="d-block w-100" alt="Protein med vaniljsmak">
+                    <p class="proteinpris">1kg Wheyprotein med smak av vanilj <span class="original"><br>300kr</span> <span class="rabatt"><br>240kr</span></p>
+                    <div class="knapp">
+                        <button class="btn btn-success">köp</button>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-light p-4 border">
+                    <p class="proteinjordgubbe">Deal 20% rabatt</p>
+                    <img src="/img/Protein.png" class="d-block w-100" alt="Protein med jordgubbssmak">
+                    <p class="proteinpris">1kg Wheyprotein med smak av jordgubb<span class="original"> 300kr</span> <span class="rabatt"><br>240kr</span></p>
+                    <div class="knapp">
+                        <button class="btn btn-success">köp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>©LeosProteinbutik</p>
+        <p>Kontakt: <a href="mailto:info@dittforetag.se" class="text-white">info@LeosProteinbutik.se</a></p>
+        <div>
+            <a href="https://facebook.com" class="text-white mx-2">Facebook</a>
+            <a href="https://instagram.com" class="text-white mx-2">Instagram</a>
+            <a href="https://twitter.com" class="text-white mx-2">Twitter</a>
+        </div>
+    </div>   
+  </body>
+</html>

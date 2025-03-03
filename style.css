@@ -1,0 +1,128 @@
+/* ==============================
+   html och body
+   ============================== */
+   html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==============================
+   Containers
+   ============================== */
+.kontakt, .proteinsmaker, .prestationtillskott, .vitaminerochmineraler {
+    flex: 1;
+    padding-top: 50px;
+}
+
+/* ==============================
+   Länkar
+   ============================== */
+h1 a, 
+.facebook, 
+.instagram, 
+.twitter, 
+.mail {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ==============================
+   Bildspel
+   ============================== */
+.carousel-item {
+    background-color: grey;
+}
+
+.carousel-item img {
+    display: block;
+    margin: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+/* ==============================
+   Produkter
+   ============================== */
+.col-sm-4 {
+    outline: auto;
+    background-color: lightgray;
+    max-width: 150px;
+}
+
+.protein {
+    height: 250px;
+}
+
+/* ==============================
+   Text
+   ============================== */
+.deal {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.info {
+    text-align: center;
+    font-weight: 650;
+}
+
+.proteinpris, .priser {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.proteinchoklad, 
+.proteinvanilj, 
+.proteinjordgubbe {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.vitamininfo, 
+.pwoinfo, 
+.kreatininfo {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.maila {
+    padding-top: 25px;
+}
+
+/* ==============================
+   knappar och pris
+   ============================== */
+.btn {
+    background-color: green;
+    color: white;
+}
+
+.knapp {
+    text-align: center;
+}
+
+.original {
+    text-decoration: line-through;
+}
+
+.rabatt {
+    font-weight: bold;
+    color: red;
+}
+
+/* ==============================
+   Annpassning för mindre skärmar
+   ============================== */
+@media (max-width: 768px) {
+    .col-sm-4 {
+        max-width: 100%;
+    }
+
+    .carousel-item img {
+        max-height: 200px;
+    }
+}
